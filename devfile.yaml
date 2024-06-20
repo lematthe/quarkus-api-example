@@ -10,6 +10,8 @@ components:
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
+        - name: VSCODE_TRUSTED_EXTENSIONS
+          value: "github.copilot,github.copilot-chat"
       endpoints:
         - exposure: none
           name: debug
